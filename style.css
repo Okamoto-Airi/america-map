@@ -1,0 +1,36 @@
+/* 全体レイアウト */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  height: 100vh;
+}
+
+#sidebar {
+  width: 280px;
+  background: #f4f4f4;
+  overflow-y: auto;
+  padding: 16px;
+  border-right: 1px solid #ccc;
+}
+
+#map {
+  flex: 1;
+}
+
+.day-title {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.place-item {
+  cursor: pointer;
+  padding: 6px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.popup-img {
+  max-width: 220px;
+  margin-top: 6px;
+  border-radius: 8px;
+}
